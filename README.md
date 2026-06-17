@@ -1,31 +1,27 @@
-# Network-Inference-Project
+# Insta-Cab
 
-This project explores machine learning techniques for network inference on sparse datasets. The goal was to analyze incomplete or noisy tabular data, reduce dimensionality, and apply multiple models to infer useful relationships from limited features.
+Insta-Cab is a database design project for an online cab booking system. It focuses on modeling the core entities involved in booking, assigning, and tracking rides, then implementing the schema and SQL logic needed to support those workflows.
 
 ## Highlights
 
-- Worked with sparse datasets and missing values.
-- Applied dimensionality reduction using PCA.
-- Experimented with classical ML methods including Random Forest, XGBoost, KNN, MICE imputation, and NMF.
-- Used Python-based analysis to understand feature behavior and model performance.
-- Prepared a research report documenting methodology, experiments, and observations.
+- Designed an ER model for users, drivers, rides, bookings, payments, and related operational data.
+- Converted the conceptual design into a relational schema.
+- Implemented SQL queries for booking workflows, reporting, and data retrieval.
+- Practiced joins, nested queries, window functions, stored procedures, and database normalization.
 
 ## Tech Stack
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Scikit-learn
-- XGBoost
-- PCA / NMF
+- SQL
+- DBMS concepts
+- ER modeling
+- Relational schema design
 
 ## Repository Contents
 
-- `Untitled.ipynb` - notebook containing the main analysis and modeling workflow.
-- `divorce.csv` / `divorce.xlsx` - dataset files used for experimentation.
-- `Report_NetworkInference_HarshPandey.pdf` - project report.
+- `SQL file.sql` - SQL schema and queries.
+- `DBMS ER diagram example (UML notation).png` - ER diagram.
+- `Relational Model.png` - relational model.
 
 ## Learning Outcomes
 
-This project helped me build stronger intuition around sparse data preprocessing, dimensionality reduction, and model selection for tabular machine learning problems.
+This project strengthened my understanding of relational database design, query optimization basics, and how to model real-world business workflows in SQL.
